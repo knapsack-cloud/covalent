@@ -150,6 +150,11 @@ byId:
     name: Tabs
     parentId: test-page
     path: /pattern/tabs
+  test:
+    id: test
+    name: Test
+    parentId: test-page
+    path: /pattern/test
   test-page:
     id: test-page
     name: components
@@ -205,6 +210,11 @@ byId:
     name: Tree list item
     parentId: tree-list
     path: /pattern/tree-list-item
+  user-profile:
+    id: user-profile
+    name: User Profile
+    parentId: test-page
+    path: /pattern/user-profile
 order:
   - test-page
   - alert
@@ -247,3 +257,5 @@ order:
   - top-app-bar-fixed
   - tree-list
   - tree-list-item
+  - test
+  - user-profile

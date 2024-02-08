@@ -1,0 +1,11 @@
+{
+  "id": "sPyIg3q5WR",
+  "title": "Main",
+  "type": "data",
+  "patternId": "user-profile",
+  "templateId": "angular-u5etc9ybzE",
+  "data": {
+    "props": {},
+    "slots": {}
+  }
+}

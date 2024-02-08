@@ -1,0 +1,36 @@
+{
+  "id": "user-profile",
+  "title": "User Profile",
+  "description": "",
+  "statuses": {},
+  "templates": [
+    {
+      "id": "angular-u5etc9ybzE",
+      "title": "CovalentUserProfileModule",
+      "path": "@covalent/core",
+      "alias": "CovalentUserProfileModule",
+      "templateLanguageId": "angular",
+      "spec": {},
+      "demoIds": ["sPyIg3q5WR"],
+      "blockIds": [],
+      "assetSetIds": []
+    }
+  ],
+  "tabs": [
+    {
+      "type": "subPage",
+      "id": "overview"
+    },
+    {
+      "type": "template",
+      "id": "angular-u5etc9ybzE"
+    }
+  ],
+  "subPages": [
+    {
+      "id": "overview",
+      "title": "Overview",
+      "blockIds": []
+    }
+  ]
+}

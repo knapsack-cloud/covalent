@@ -11,7 +11,12 @@ module.exports = configureKnapsack({
   dist: join(__dirname, './dist'),
   public: join(__dirname, './public'),
   version,
-  templateRenderers: [new KnapsackWebComponentRenderer()],
+  templateRenderers: [
+    new KnapsackWebComponentRenderer(),
+    new KnapsackAngularRenderer({
+      useNewTemplate: true,
+    }),
+  ],
   plugins: [],
   cloud: {
     siteId: 'covalent',

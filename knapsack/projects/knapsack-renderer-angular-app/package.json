@@ -1,6 +1,6 @@
 {
   "name": "@covalent/knapsack",
-  "version": "0.0.0-COVALENT",
+  "version": "latest",
   "private": true,
   "scripts": {
     "build": "knapsack build",
